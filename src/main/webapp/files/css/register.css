@@ -1,0 +1,229 @@
+/*
+ * Globals
+ 
+ */
+* {
+	margin:0;
+	padding: 0;
+}
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #fff;
+}
+
+body {
+  background-color: #505050;
+  background-size: 100% 100%;
+  display: -ms-flexbox;
+  display: block;
+  color: #fff;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+
+/*
+ * Header
+ */
+.masthead {
+  margin-bottom: 2rem;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+.nav-masthead .nav-link {
+  padding: .25rem 0;
+  font-weight: 700;
+  color: rgba(255, 255, 255, .5);
+  background-color: transparent;
+  border-bottom: .25rem solid transparent;
+}
+
+.nav-masthead .nav-link:hover,
+.nav-masthead .nav-link:focus {
+  border-bottom-color: rgba(255, 255, 255, .25);
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+/*  Sign-Up form */
+
+
+.sign-up-box {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+h1 {
+	margin-bottom: 20px;
+	font-size: 26px;
+	text-align: center;
+}
+
+.registration-box p {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 6px;
+	text-align: left;
+}
+
+.login-box p {
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 6px;
+	text-align: left;
+}
+
+.registration-box input, .login-box input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.registration-box input[type="text"], input[type="email"], input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	color: #fff;
+	outline: none;
+	height: 40px;
+	font-size: 16px;
+}
+
+.registration-box input[type="submit"], .login-box input[type="submit"] {
+	border: none;
+	outline: none;
+	height: 40px;
+	background: #fb2525;
+	color: #fff;
+	font-size: 18px;
+	border-radius: 20px;
+}
+
+.registration-box input[type="text"]:focus{
+	border-bottom: 1px solid #ffc107;
+}
+
+input:focus{
+	border-bottom: 1px solid #ffc107;
+}
+
+.registration-box input[type="submit"]:hover, .login-box input[type="submit"]:hover {
+	cursor: pointer;
+	background: #ffc107;
+	color: #000;
+}
+
+.login-box a{
+	text-decoration: none;
+	font-size: 12px;
+	line-height: 20px;
+	color: darkgrey;
+}
+
+.login-box a:hover{
+	color: #ffc107;
+}
+
+
+
+.registration-box, .login-box {
+	width: 300px;
+    height: 100%;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #fff !important;
+}
+
+.zx{
+	display: flex;
+	align-items: center;
+	/* justify-content: center; */
+	flex-direction: column;
+}
+
+.logo{
+	margin-top: 100px;
+	margin-bottom: 50px;
+	display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #874343;
+    margin-left: 40px;
+    width: 100%;
+}
+
+#logo-name{
+    font-size: 56px;
+    font-style: normal;
+    margin-top: 30px;
+    font-weight: normal;
+    margin-left: 15px;
+    font-family: 'Reem Kufi', sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.login-error p {
+	color: red;
+}
+
+.register-error p {
+	color: red;
+}

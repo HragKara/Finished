@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-width: 100%;
+}
+
+.nav{
+    width: 100%;
+    border-bottom: 2px solid #efefef;
+}
+
+.nav-container{
+    margin: 10px;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.nav-content{
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-content a {
+	text-decoration: none;
+	outline: none;
+}
+
+
+.logo-left{
+    display: inline-flex;
+    align-items: center;
+    color: #874343;
+    margin-left: 40px;
+}
+
+#logo-name{
+    font-size: 50px;
+    font-style: normal;
+    margin-top: 10px;
+    font-weight: normal;
+    margin-left: 15px;
+    font-family: 'Reem Kufi', sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.selections{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #7d7b7b;
+    margin-left: 30px;
+}
+
+.selections ul li{
+    margin-right: 25px;
+    padding: 0;
+    list-style: none;
+    display: inline;
+}
+
+.selections a {
+    color: #7d7b7b;
+    text-decoration: none;
+}
+
+.search-container{
+    display: flex;
+    width: 765px;
+    height: 40px;
+    margin-left: 35px;
+    background: #efefef;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    align-items: center;
+}
+
+.search-box{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.search-container img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.search-container form{
+    background: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.search-box input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 20px;
+    font-family: 'Poppins' sans-serif;
+    background: none;
+    outline: none;
+    margin-left: 15px;
+}
+
+#submit{
+	width: 100%
+}
+
+.mid-container{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.cart-left{
+    width: 730px;
+    margin-right: 50px;
+}
+
+.item-image img{
+    width: 330px;
+    height: 200px;
+}
+
+.item-description{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.header{
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px
+}
+
+.item-details{
+    width: 270px;
+}
+
+.item-details a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+.name{
+    padding: 10px;
+}
+
+.sku{
+    padding: 10px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.size{
+    padding: 10px;
+    font-size: 14px;
+}
+
+.price{
+    padding: 10px;
+    margin-left: 50px;
+    font-weight: 600;
+}
+
+.order-summary{
+    background: #efefefb8;
+    border: 1px #616161 solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 308px;
+    height: 500px;
+}
+
+.order-total-container{
+    width: 100%;
+}
+
+.order-total-table{
+    width: 100%;
+    border-collapse:collapse;
+    margin-bottom: 30px;
+}
+
+.order-total-table td{
+    font-size: 0.875em;
+    padding: 0.750em 0;
+    font-weight: 700;
+}
+
+.order-total-table td:first-child{
+    text-align: left;
+    float: left;
+    font-weight: 700;
+    
+}
+
+.order-total-table td:last-child{
+    text-align: right;
+    min-width: 60px;
+    float: right;
+}
+
+.order-total-table .order-final{
+    border-top: 1px solid black;
+}
+
+.promo-sec{
+    padding: 0.750em;
+}
+
+.promo-content:hover{
+    cursor: pointer;
+}
+
+.checkout-section{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+#submit{
+	width: 100%;
+	height: 100%;
+	background: #874343;
+	border: 1px solid black;
+	color: white;
+	font-weight: 500;
+	font-size: 24px;
+	
+}
+
+#submit:hover{
+	cursor: pointer;
+}
+
+.checkout-button{
+    background: #874343;
+    color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.checkout-button:hover{
+    cursor: pointer;
+}
+
+.checkout-button-content{
+	width: 100%;
+	height: 100%;
+}
+
+.checkout-button-content h1{
+    font-weight: 500;
+}
+
+.other-option{
+    padding: 10px;
+}
+
+.paypal-option{
+    display: flex;
+    width: 60%;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.paypal-button{
+    background: #009cde;
+    padding: 10px 50px;
+    font-size: 24px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.paypal-button:hover{
+    cursor: pointer;
+}

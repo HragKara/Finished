@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav{
+    width: 100%;
+    border-bottom: 2px solid #efefef;
+}
+
+.nav-container{
+    margin: 10px;
+    /* background-color: red; */
+}
+
+.nav-content{
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+}
+
+.logo-left{
+    display: inline-flex;
+    align-items: center;
+    color: #874343;
+    margin-left: 40px;
+}
+
+#logo-name{
+    font-size: 50px;
+    font-style: normal;
+    margin-top: 10px;
+    font-weight: normal;
+    margin-left: 15px;
+    font-family: 'Reem Kufi', sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.selections{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #7d7b7b;
+    margin-left: 30px;
+}
+
+ul{
+	margin: 0;
+}
+
+.selections ul li{
+    margin-right: 25px;
+    padding: 0;
+    list-style: none;
+    display: inline;
+}
+
+.selections a {
+    color: #7d7b7b;
+    text-decoration: none;
+}
+
+.search-container{
+    display: flex;
+    width: 765px;
+    height: 40px;
+    margin-left: 35px;
+    background: #efefef;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    align-items: center;
+}
+
+.search-box{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.search-container img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.search-container form{
+    background: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.search-box input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 20px;
+    font-family: 'Poppins' sans-serif;
+    background: none;
+    outline: none;
+    margin-left: 15px;
+}
+
+
+.mid-container{
+    height: 450px;
+    margin: 10px 0;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mid-content{
+    width: 630px;
+}
+
+.search-title h3{
+    font-weight: light;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.bar{
+    width: 100%;
+    margin: 20px 0;
+}
+
+.search-bar{
+    display: flex;
+    flex-direction: row;
+    background: white;
+    border: 1px solid #e5e7ea;
+}
+
+.search-bar input{
+    width: 100%;
+    padding: 6px 12px;
+    border:none;
+    outline:none;
+    background:none;
+
+    font-size: 16px;
+}
+
+.search-bar ::placeholder{
+    color: #a4a4a4
+}
+
+#search-icon{
+    margin: 15px;
+    width: 16px;
+    height: 16px;
+}
+
+.search-results{
+    margin-bottom: 30px;
+}

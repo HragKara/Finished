@@ -1,0 +1,281 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-width: 100%;
+    /* background: #CECECE; */
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.nav{
+    width: 100%;
+    border-bottom: 2px solid #efefef;
+}
+
+.nav-container{
+    margin: 10px;
+    /* background-color: red; */
+    width: 100%;
+}
+
+hr{
+    border: 5px solid #efefef;
+}
+
+.nav-content{
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-content a {
+	text-decoration: none;
+	outline: none;
+}
+
+
+.logo-left{
+    display: inline-flex;
+    align-items: center;
+    color: #874343;
+    margin-left: 40px;
+}
+
+#logo-name{
+    font-size: 50px;
+    font-style: normal;
+    margin-top: 10px;
+    font-weight: normal;
+    margin-left: 15px;
+    font-family: 'Reem Kufi', sans-serif;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
+
+.selections{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    color: #7d7b7b;
+    margin-right: 40px;
+}
+
+.selections ul li{
+    margin-right: 25px;
+    padding: 0;
+    list-style: none;
+    display: inline;
+}
+
+.selections a {
+    color: #7d7b7b;
+    text-decoration: none;
+}
+
+.search-container{
+    display: flex;
+    width: 765px;
+    height: 40px;
+    margin-left: 75px;
+    background: #DFDFDF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    align-items: center;
+}
+
+.search-box{
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.search-container img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+
+.search-container form{
+    background: none;
+    border: none;
+    width: 100%;
+    height: 100%;
+}
+
+.search-box input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    font-size: 20px;
+    font-family: 'Poppins' sans-serif;
+    background: none;
+    outline: none;
+    margin-left: 15px;
+}
+
+.mid-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid #efefef;
+    /* background: blue; */
+}
+
+.mid-content{
+    width: 100%;
+    display: flex;
+    /* background: yellow; */
+}
+
+.left-side{
+    width: 60%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 230px;
+    /* background:white; */
+}
+
+.left-title{
+    max-width: 400px;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
+
+.left-pic{
+    width:676px;
+    height: 483px;
+}
+
+.left-pic img{
+    max-width: 100%;
+}
+
+.right-side {
+    display: flex;
+    width: 388px;
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.right-side-fix{
+    background: #efefef;
+    padding: 40px 139px 40px 80px;
+}
+
+.right-title{
+    font-size: 26px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.select-size{
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.options{
+    margin: 5px;
+    cursor: pointer;
+    background: #fff
+}
+
+.options-content{
+    width: 75px;
+    height: 60px;
+    border: 1px solid #e5e7ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sell-price{
+    margin-top: 30px;
+}
+
+.decoration{
+    margin-right: 14px;
+    font-size: 36px;
+}
+
+.sell-price-content{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    margin-left: 10px
+}
+
+.amount{
+    width: 60%;
+    height: 90%;
+    font-size: 30px;
+    padding: 0 20px;
+    border: 1px solid #e5e7ea;
+    border-radius: 5px;
+    outline: none;
+}
+
+.amount input::placeholder{
+    color: #7d7b7b
+}
+
+
+.options:hover, .active{
+	/* background: rgb(254,234,235); */
+	background: #cce4d1;
+	
+}
+
+
+
+@media only screen and (max-width: 1024px){
+	
+	.mid-content{
+		flex-direction: column;
+	}
+	
+	.right-side{
+		width: 615px;
+	}
+	
+	.left-side{
+		width: 55%;
+	}
+	
+	.nav-container{
+		max-width: 99%;
+	}
+
+}
+
+@media only screen and (max-width: 768px){
+	
+	.logo-left img{
+		width: 60px;
+		height: 60px;
+	}
+	
+	#logo-name{
+		font-size: 45px;
+		margin-top: 5px; 
+	}
+	
+	.left-side{
+		padding: 40px 174px;
+	}
+	
+	.hide {
+		display: none;
+	}
+}
+
